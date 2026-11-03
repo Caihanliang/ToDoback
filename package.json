@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-api",
+  "version": "1.0.0",
+  "description": "基于 Node.js + Express + MongoDB 的 Todo List RESTful API 后端服务",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "express",
+    "mongodb",
+    "mongoose",
+    "restful"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mongoose": "^8.24.8",
+    "morgan": "^1.12.1"
+  }
+}
